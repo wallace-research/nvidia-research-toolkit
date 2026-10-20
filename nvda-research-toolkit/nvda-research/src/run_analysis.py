@@ -1,19 +1,3 @@
-"""
-run_analysis.py
----------------
-Main entry point for the NVDA research toolkit.
-
-What it does:
-1. Downloads 5 years of daily prices for NVDA and SPY
-2. Calculates multiple return windows and relative performance
-3. Pulls a quick fundamental snapshot
-4. Runs a simplified illustrative DCF
-5. Saves clean CSVs you can open in Excel
-
-How to run (from the project root):
-    python -m src.run_analysis
-"""
-
 from __future__ import annotations
 
 import sys
