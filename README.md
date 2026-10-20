@@ -1,6 +1,6 @@
-# NVIDIA Research Toolkit
+# NVIDIA Research Tool
 
-A focused Python research project on **NVIDIA Corporation (NVDA)**.
+A focused Python project on **NVIDIA Corporation (NVDA)**.
 
 This repository combines:
 
@@ -9,10 +9,10 @@ This repository combines:
 - A simplified illustrative discounted-cash-flow (DCF) model
 - Clear, readable Python that a beginner can run and understand
 
-This project is intentionally limited to a single company (NVIDIA) as it is meant to be an introductory Python project.  I am intending for this to complement a broader GitHub finance research website I have built as static HTML/CSS with Excel models.  My intention was to keep the code clean and the analysis deep enough to be useful as a learning and demonstration project.
+This repository is intentionally limited to a single company (NVIDIA) as it is meant to be an introductory Python project.  I am intending for this to complement a broader GitHub finance research website I have built as static HTML/CSS with Excel models.  My intention was to keep the code clean and the analysis deep enough to be useful as a learning and demonstration project.
 
 > **Please be aware**  
-> Everything in this repository is for personal research and educational purposes only.  
+> Everything in this repository is for personal research purposes only and uses free tools available online.  
 > It is not investment advice. The DCF example uses simplified assumptions and should not be treated as a real valuation.
 
 ---
@@ -37,7 +37,7 @@ nvda-research/
 
 ---
 
-## What the toolkit does
+## What the tool does
 
 | Component                    | Purpose |
 |-----------------------------|---------|
@@ -162,9 +162,9 @@ deactivate
 
 - Sensitivity tables around the DCF assumptions  
 - Automatic chart export  
-- Comparison against a small peer set (AMD, AVGO, MRVL, etc.)  
-- Pulling more detailed financial-statement items
-- Pairing/linking to my broader investment website (I can provide the URL to that if desired)
+- Comparison against peers (AMD, AVGO, MRVL, etc.)  
+- Pulling more detailed financial statement items
+- Pairing/linking to my broader investment website
 
 ---
 
