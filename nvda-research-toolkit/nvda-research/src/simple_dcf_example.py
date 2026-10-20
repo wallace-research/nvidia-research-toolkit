@@ -1,7 +1,7 @@
 """
 simple_dcf_example.py
 ---------------------
-A short, self-contained walk-through of the illustrative DCF arithmetic.
+Short walkthrough of the illustrative DCF arithmetic.
 
 Run with:
     python -m src.simple_dcf_example
@@ -14,7 +14,7 @@ from src.metrics import simple_dcf
 
 def main() -> None:
     print("=" * 60)
-    print("Illustrative DCF for NVIDIA (teaching example)")
+    print("Illustrative DCF for NVIDIA")
     print("=" * 60)
     print(
         "\nThis example uses round numbers so the logic is easy to follow.\n"
