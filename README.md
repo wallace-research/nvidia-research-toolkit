@@ -153,9 +153,9 @@ deactivate
 
 - **One company only** – This keeps the code and the scope of the project simple.
 - **Readability first** – This provides clear variable names, comments, and interpretation.
-- **Public data only** – This means that everything comes from free, publicly available sources via `yfinance`.
+- **Public data** – This means that everything comes from free, publicly available sources via `yfinance`.
 - **Illustrative DCF** – This DCF uses constant growth rates on purpose so the arithmetic is transparent.  A more in-depth valuation would need detailed forecasts, a proper WACC calculation, and sensitivity analysis.
-- **Honest limitations** – This project outlines limitations, and is meant to be straightforward in scope, through the README; the scripts themselves state the project can and can't do.
+- **Limitations** – This project outlines limitations, and is meant to be straightforward in scope, through the README; the scripts themselves state the project can and can't do.
 
 ---
 
