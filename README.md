@@ -72,6 +72,7 @@ Python 3.10 or newer is needed.
 If you cloned the repository:
 
 ```bash
+cd nvda-research-toolkit
 cd nvda-research
 ```
 
