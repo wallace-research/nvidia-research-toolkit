@@ -9,7 +9,7 @@ This repository combines multiple tools for finance research, hence the name "to
 - A simplified illustrative discounted-cash-flow (DCF) model
 - Clear, readable Python that a beginner can run and understand
 
-This repository is intentionally limited to a single company (NVIDIA) as it is meant to be an introductory Python project.  I am intending for this to complement a broader GitHub finance research website I have built as static HTML/CSS with Excel models.  My intention was to keep the code clean and the analysis deep enough to be useful as a learning and demonstration project.
+This repository is intentionally limited to a single company, NVIDIA, as it is meant to be an introductory Python project.  I am intending for this to complement a broader GitHub finance research website I have built as static HTML/CSS with Excel models.  My intention was to keep the code clean and the analysis deep enough to be useful as a learning and demonstration project.
 
 > **Please be aware**  
 > Everything in this repository is for personal research purposes only and uses free data available online.  
