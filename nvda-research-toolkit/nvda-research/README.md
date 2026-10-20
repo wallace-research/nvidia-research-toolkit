@@ -31,7 +31,7 @@ nvda-research/
 │   └── simple_dcf_example.py     ← short DCF walk-through
 ├── notebooks/
 │   └── 01_nvda_explore.ipynb     ← interactive version
-├── data/                         ← downloaded price CSVs land here
+├── data/                         ← downloaded price CSVs show here
 └── output/                       ← performance table + DCF summary
 ```
 
