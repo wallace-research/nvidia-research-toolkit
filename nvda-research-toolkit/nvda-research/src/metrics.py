@@ -1,9 +1,3 @@
-"""
-metrics.py
-----------
-Performance calculations and a simple illustrative DCF for NVIDIA.
-"""
-
 from __future__ import annotations
 
 import pandas as pd
