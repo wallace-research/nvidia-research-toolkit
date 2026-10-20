@@ -26,13 +26,13 @@ nvda-research/
 ├── .gitignore
 ├── src/
 │   ├── data_fetch.py             ← download prices & fundamentals
-│   ├── metrics.py                ← returns + simple DCF
+│   ├── metrics.py                ← returns & simple DCF
 │   ├── run_analysis.py           ← main script (run this first)
 │   └── simple_dcf_example.py     ← short DCF walk-through
 ├── notebooks/
 │   └── 01_nvda_explore.ipynb     ← interactive version
 ├── data/                         ← downloaded price CSVs show here
-└── output/                       ← performance table + DCF summary
+└── output/                       ← performance table & DCF summary
 ```
 
 ---
@@ -41,7 +41,7 @@ nvda-research/
 
 | Component                    | Purpose |
 |-----------------------------|---------|
-| `run_analysis.py`           | Downloads 5 years of NVDA + SPY prices, calculates multiple return windows, pulls a fundamental snapshot, runs an illustrative DCF, and saves clean CSVs. |
+| `run_analysis.py`           | Downloads 5 years of NVDA & SPY prices, calculates multiple return windows, pulls a fundamental snapshot, runs an illustrative DCF, and saves clean CSVs. |
 | `simple_dcf_example.py`     | Prints a step-by-step DCF so the arithmetic is easy to follow. |
 | `data_fetch.py`             | Reusable helpers for prices and company info. |
 | `metrics.py`                | Return calculations and the DCF function. |
