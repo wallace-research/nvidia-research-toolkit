@@ -1,15 +1,15 @@
-# NVDA Research Toolkit
+# NVIDIA Research Toolkit
 
-A focused, self-contained research project on **NVIDIA (NVDA)**.
+A focused, self-contained research project on **NVIDIA Corporation (NVDA)**.
 
 This repository combines:
 
 - Public market data retrieval
-- Performance analysis versus the S&P 500
+- Performance analysis versus the S&P 500 (SPY)
 - A simplified illustrative discounted-cash-flow (DCF) model
 - Clear, readable Python that a beginner can run and understand
 
-It is intentionally narrow in scope (one company) so the code stays clean and the analysis stays deep enough to be useful as a learning and demonstration project.
+This project is intentionally narrow in scope (NVIDIA) as it is meant to be an introductory Python project.  I am intending for this to complement a broader GitHub finance research website I have built as static HTML/CSS with Excel models.  My intention was to keep the code clean and the analysis  deep enough to be useful as a learning and demonstration project.
 
 > **Disclaimer**  
 > Everything in this repository is for personal research and educational purposes only.  
@@ -65,7 +65,7 @@ or
 python3 --version
 ```
 
-You want Python 3.10 or newer.
+Python 3.10 or newer is needed.
 
 ### 2. Get the code
 
@@ -79,12 +79,6 @@ cd nvda-research
 
 This keeps the packages for this project separate from the rest of your computer.
 
-**Mac / Linux**
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
-
 **Windows (Command Prompt)**
 ```bash
 python -m venv .venv
@@ -95,6 +89,12 @@ python -m venv .venv
 ```bash
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+```
+
+**Mac / Linux**
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
 ```
 
 You should see `(.venv)` at the beginning of your prompt.
@@ -150,24 +150,25 @@ deactivate
 
 ## Design choices
 
-- **One company only** – keeps the code and the mental model simple.
-- **Readability first** – clear variable names, comments, and no clever tricks.
-- **Public data only** – everything comes from free sources via `yfinance`.
-- **Illustrative DCF** – the model uses constant growth rates on purpose so the arithmetic is transparent. A real valuation would need detailed forecasts, a proper WACC, and sensitivity analysis.
-- **Honest limitations** – the README and the scripts themselves state what this is and what it is not.
+- **One company only** – This keeps the code and the scope of the project simple.
+- **Readability first** – This provides clear variable names, comments, and interpretation.
+- **Public data only** – This means that everything comes from free, publicly available sources via `yfinance`.
+- **Illustrative DCF** – This DCF uses constant growth rates on purpose so the arithmetic is transparent.  A more in-depth valuation would need detailed forecasts, a proper WACC calculation, and sensitivity analysis.
+- **Honest limitations** – This project outlines limitations, and is meant to be straightforward in scope, through the README; the scripts themselves state the project can and can't do.
 
 ---
 
-## Future ideas (not implemented)
+## Ideas for future development (not implemented)
 
 - Sensitivity tables around the DCF assumptions  
 - Automatic chart export  
-- Comparison against a small peer set (AMD, AVGO, etc.)  
+- Comparison against a small peer set (AMD, AVGO, MRVL, etc.)  
 - Pulling more detailed financial-statement items
+- Pairing/linking to my broader investment website (I can provide the URL to that if desired)
 
 ---
 
 ## Author
 
 Ty Wallace  
-Personal research & learning project focused on NVIDIA.
+Personal research & Python project centered on NVIDIA.
