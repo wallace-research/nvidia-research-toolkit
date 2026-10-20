@@ -1,12 +1,3 @@
-"""
-simple_dcf_example.py
----------------------
-Short walkthrough of the illustrative DCF arithmetic.
-
-Run with:
-    python -m src.simple_dcf_example
-"""
-
 from __future__ import annotations
 
 from src.metrics import simple_dcf
