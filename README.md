@@ -41,11 +41,11 @@ nvda-research/
 
 | Component                    | Purpose |
 |-----------------------------|---------|
-| `run_analysis.py`           | Downloads 5 years of NVDA & SPY prices, calculates multiple return windows, pulls a fundamental snapshot, runs an illustrative DCF, and saves CSVs. |
-| `simple_dcf_example.py`     | Prints a simple step-by-step DCF with clear assumptions. |
-| `data_fetch.py`             | Reusable helpers for prices and company info. |
-| `metrics.py`                | Return calculations and the DCF function. |
-| `01_nvda_explore.ipynb`     | Same ideas in an interactive Jupyter notebook (charts included). |
+| `run_analysis.py`           | Downloads 5 years of NVDA & SPY prices, calculates multiple return windows, pulls a fundamental snapshot, runs an illustrative DCF, and saves CSVs |
+| `simple_dcf_example.py`     | Prints a simple step-by-step DCF with clear assumptions |
+| `data_fetch.py`             | Reusable helpers for prices and company information |
+| `metrics.py`                | Return calculations and the DCF function |
+| `01_nvda_explore.ipynb`     | Same ideas in an interactive Jupyter notebook (charts included) |
 
 ---
 
@@ -72,8 +72,7 @@ Python 3.10 or newer is needed.
 If you cloned the repository:
 
 ```bash
-cd nvda-research-toolkit
-cd nvda-research
+cd nvda-research-toolkit --> cd nvda-research
 ```
 
 ### 3. Create a virtual environment (recommended)
