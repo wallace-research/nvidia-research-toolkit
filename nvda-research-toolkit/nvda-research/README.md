@@ -13,7 +13,7 @@ This project is intentionally narrow in scope (NVIDIA) as it is meant to be an i
 
 > **Disclaimer**  
 > Everything in this repository is for personal research and educational purposes only.  
-> It is not investment advice. The DCF example uses simplified assumptions and should never be treated as a real valuation.
+> It is not investment advice. The DCF example uses simplified assumptions and should not be treated as a real valuation.
 
 ---
 
