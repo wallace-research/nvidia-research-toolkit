@@ -106,7 +106,7 @@ You should see `(.venv)` at the beginning of your prompt.
 pip install -r requirements.txt
 ```
 
-(Only needs to be done once, or when the requirements change.)
+(Only needs to be done once)
 
 ### 5. Run the main analysis
 
