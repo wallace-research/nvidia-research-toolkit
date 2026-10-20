@@ -114,7 +114,7 @@ pip install -r requirements.txt
 python -m src.run_analysis
 ```
 
-This will:
+This will perform the following actions:
 
 1. Download 5 years of daily prices for NVDA and SPY  
 2. Calculate 1-month, 3-month, 6-month, YTD, and 1-year returns  
