@@ -20,8 +20,8 @@ This repository is intentionally limited to a single company, NVIDIA, as it is m
 ## Project structure
 
 ```
-nvda-research/
-├── README.md                     ← you are here
+README.md                         ← you are here
+├── nvda-research-toolkit/nvda-research
 ├── requirements.txt
 ├── .gitignore
 ├── src/
