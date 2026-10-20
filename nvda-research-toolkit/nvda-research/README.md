@@ -49,7 +49,7 @@ nvda-research/
 
 ---
 
-## How to run (step-by-step)
+## How to run
 
 ### 1. Check that Python is installed
 
