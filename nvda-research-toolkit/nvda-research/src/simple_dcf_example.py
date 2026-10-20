@@ -9,7 +9,7 @@ def main() -> None:
     print("=" * 60)
     print(
         "\nThis example uses round numbers so the logic is easy to follow.\n"
-        "It is NOT a real valuation or investment recommendation.\n"
+        "It is not a real valuation or investment recommendation.\n"
     )
 
     starting_fcf = 50_000          # $ millions
