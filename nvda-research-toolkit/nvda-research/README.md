@@ -1,6 +1,6 @@
 # NVIDIA Research Toolkit
 
-A focused, self-contained research project on **NVIDIA Corporation (NVDA)**.
+A focused Python research project on **NVIDIA Corporation (NVDA)**.
 
 This repository combines:
 
