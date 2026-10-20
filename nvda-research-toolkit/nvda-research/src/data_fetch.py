@@ -1,11 +1,3 @@
-"""
-data_fetch.py
--------------
-Helpers to download public market data for NVIDIA (and the S&P 500 benchmark).
-
-Intentionally simple so the code is easy to read and modify.
-"""
-
 from __future__ import annotations
 
 import yfinance as yf
