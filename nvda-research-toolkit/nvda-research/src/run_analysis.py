@@ -64,10 +64,10 @@ def main() -> None:
     # ------------------------------------------------------------------
     # 4. Illustrative DCF
     # ------------------------------------------------------------------
-    print("\n[4/4] Illustrative DCF (teaching example only)...")
+    print("\n[4/4] Illustrative DCF...")
     print("  Assumptions: starting FCF = $50 billion, explicit growth 15%,")
     print("               terminal growth 3%, discount rate 10%, 5-year horizon.")
-    print("  These numbers are illustrative – not a recommendation.\n")
+    print("  These outputs are illustrative – not a recommendation.\n")
 
     dcf = simple_dcf(
         free_cash_flow=50_000,   # $ millions
